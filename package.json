@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "./node_modules/cypress/bin/cypress open",
-    "ci": "./node_modules/cypress/bin/cypress run --reporter mocha-multi-reporters --reporter-options configFile=config.json"
+    "ci": "/root/app/node_modules/cypress/bin/cypress run --reporter mocha-multi-reporters --reporter-options configFile=config.json"
   },
   "author": "",
   "license": "ISC",
