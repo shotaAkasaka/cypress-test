@@ -22,4 +22,7 @@ jobs:
           paths:
             - ~/.npm
             - ~/.cache
+      - run:
+          name: Running E2E tests
+          command: npm run ci
       # - run: $(npm bin)/cypress run --record --key <record_key>
