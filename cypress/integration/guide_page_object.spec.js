@@ -1,9 +1,15 @@
-import Guide from "../page_object/guide";
+import Guide from "../page_object/pc/guide";
+
+const guide = new Guide();
+
+describe('Guide Page', function(){
+    it('open guide page', function(){
+      guide.visit()
+    })
+})
 
 describe('Plan Modal', function(){
-    it('plan modal', function(){
-      const guide = new Guide();
-      guide.visit()
+    it('open plan modal', function(){
       guide.planmodal()
     })
 })
